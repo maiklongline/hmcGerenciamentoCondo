@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&family=Encode+Sans+Semi+Condensed:wght@400;500;600&family=Lexend&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@400;600&display=swap');
+
+
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    margin: 0 0 0 60px;
+    
 }
+
 
 #titlePrincipal{
     display: flex;
-    margin-top: 2.8rem;
+    padding: 2.8rem 0 200px 6rem;
     width: 100%;
+
 }
 
 #title{
@@ -24,17 +31,76 @@ body{
     margin-right: 2.4rem;
 }
 
-#menu ul{
+#menu .menu-info{
     display: flex;
-   
+    list-style-type: none;
+    
 }
+
+
 
 #menu li{
     font-size: 30px;
     font-family: "Lexend" , sans-serif;
     font-weight: 400;
+
     
-    display: flex;
+    display: inline-block;
     margin: 2.8rem 3rem 0 0;
     
+}
+
+main {
+    width: 1304px;
+    height: 304px;
+    padding-left: 6rem;
+    display: flex;
+}
+
+#aprensetacao{
+    display: inline-block;
+
+}
+
+ #title-sobre{
+    font-size:36px;
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #DB6516;
+
+    padding-left: 108px;
+    display: flex;
+}
+
+#text-sobre{
+    padding-top: 45px;
+    display: block;
+
+    font-size: 25px;
+    font-family: "Encode Sans SC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+#sobre{
+    width: 936px;
+}
+
+#botao-ctt{
+    padding-left: 546px;   
+}
+
+#botao-ctt button{
+    border-radius: 25px;
+    width: 270px;
+    height: 68px; 
+    background-color: #DB6516;
+    border: none;
+
+    font-size: 24px;
+    font-family: "Encode Sans SC", sans-serif;
+    font-weight: 600;
+
+    color: #fff;
+
 }
