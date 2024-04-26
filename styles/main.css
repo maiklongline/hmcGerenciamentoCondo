@@ -130,11 +130,30 @@ section .title{
     height:221px;
     background-color:#ADAD8E;
     margin-bottom: 41px;
-
     border-radius: 20px;
-    
+
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(190, 190, 190),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+
+
+    display: flex;
+    align-items: flex-start;  
 }
 
+
+
+.icon{
+    width: 0;
+    height: 0;
+}
+
+.icon img{
+    width:80px;
+    height: 80px;
+    margin-left: 20px;
+}
 .imageLogo{
     padding-top: 134px;
 }
@@ -146,11 +165,49 @@ section .title{
     font-size: 35px;
     font-family: "Lexend" , sans-serif;
     font-weight: 500;
-    /* text-align: center; */
+    margin-left: 184px;
 
 }
 
-.title-imagess{
+.bloco-services .titleBloco{
+    margin-top: 15px;
+}
+
+.conteudoText{
     display: flex;
-    justify-content: center;
+    gap: 70px;
+    margin-top: 25px;
+    margin-left:21px;
 }
+.textPrimario{
+    width: 327px;
+    height: 151px;
+    font-size:25px;
+    font-family: "encode sans condensed",sans-serif;
+    font-weight: 600;   
+}
+.todoServices{
+    display: flex;
+}
+
+ .textServicos li{
+    font-size:22px;
+    font-family: "encode sans condensed",sans-serif;
+    margin-top:12px;
+    
+ }
+
+ .textServicos .quadradoServicos{
+    width: 345px;
+    height:141px;
+    margin-top:50px;
+    margin-left: 30px;
+ }
+
+ 
+.textServicos + .textServicos{
+    margin-left: 50px;
+}
+
+
+ 
