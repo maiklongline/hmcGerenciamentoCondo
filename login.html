@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/login.css">
+
+    <title>HMC</title>
+</head>
+
+<body>
+    <div class="box">
+        <form onsubmit="logar(event)">
+            <h3>Bem vindo a HMC</h3>
+            <div>
+                <input type="text" placeholder="EMAIL" id="email" required>
+            </div>
+            <div>
+                <input type="password" placeholder="SENHA" id="senha" required>
+            </div>
+            <input type="submit" onclick="logar(); return false">
+        </form>
+    </div>
+
+    <script>
+        function logar(){
+
+            event.preventDefault();
+        var email = document.getElementById('email').value;
+        var senha = document.getElementById('senha').value;
+
+        if (email == "admin" && senha == "admin") {
+            alert('sucesso');
+            location.href = "pageMain.html"
+        } else {
+            alert('usário não encontrado');
+        }
+    }
+    </script>
+</body>
+
+</html>

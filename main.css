@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&family=Encode+Sans+Semi+Condensed:wght@400;500;600&family=Lexend&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@400;600&display=swap');
+
+@media(max-width: 768px){
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /* na largura total do elemento, evitando que ele ultrapasse a largura disponível. */
+}
+
+
+
+
+
+
+
+/* Estilizando o menu do site */
+#titlePrincipal{
+    display: flex;
+    padding: 2.8rem 0 200px 6rem;
+    width: 100%;
+
+}
+
+#title-main{
+    font-size: 3rem;
+    font-family: "Lexend", sans-serif;
+    font-weight: 500;
+    color: #DB6516;
+
+    margin-right: 2.4rem;
+}
+
+#menu .menu-info{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+
+
+#menu li{
+    font-size: 30px;
+    font-family: "Lexend" , sans-serif;
+    font-weight: 400;
+
+    
+    display: inline-block;
+    margin: 2.8rem 3rem 0 0;
+    
+}
+
+/* Aplicando estilos nos botões e complementos de outros dados */
+main {
+    width: 1304px;
+    height: 304px;
+    padding-left: 6rem;
+    display: flex;
+}
+
+#aprensetacao{
+    display: inline-block;
+
+}
+
+ .title{
+    font-size:36px;
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #DB6516;
+
+    padding-left: 108px;
+    display: flex;
+}
+
+#text-sobre{
+    padding-top: 45px;
+    display: block;
+
+    font-size: 25px;
+    font-family: "Encode Sans SC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+#sobre{
+    width: 936px;
+}
+
+#botao-ctt{
+    padding-left: 546px;   
+}
+
+#botao-ctt button{
+    border-radius: 25px;
+    width: 270px;
+    height: 68px; 
+    background-color: #DB6516;
+    border: none;
+
+    font-size: 24px;
+    font-family: "Encode Sans SC", sans-serif;
+    font-weight: 600;
+
+    color: #fff;
+
+}
+
+/* Habilitando a seção de serviços */
+
+section{
+    padding-top: 139px;
+}
+section .title{
+    color: #EDA011;
+    font-size: 40px;
+
+    display: flex;
+    justify-content: center;
+    
+    height: 100px;
+    margin: 0 auto;
+}
+
+.conteiner-principal{
+    /* definindo totalmente como o retângulo irá se manter 
+    sendo em linha e com espaçamento iguais entre logo e cards*/
+    display: flex;
+    justify-content: space-between;
+   
+}
+.conteiner-principal .bloco-ramo,.bloco-services{
+    /* tamanhos e posições que o card irá se encontrar */
+    width: 771px;
+    height:221px;
+    background-color:#ADAD8E;
+    margin-bottom: 41px;
+    border-radius: 20px;
+    /* defindo uma sombra bo card */
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(190, 190, 190),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+
+
+    display: flex;
+    align-items: flex-start;  
+}
+
+
+
+.icon{
+    width: 0;
+    height: 0;
+}
+
+.icon img{
+    width:80px;
+    height: 80px;
+    margin-left: 20px;
+}
+.imageLogo{
+    padding-top: 134px;
+}
+.conteiner-services{
+    margin: 67px 30px 0;
+}
+
+.titleBloco{
+    font-size: 35px;
+    font-family: "Lexend" , sans-serif;
+    font-weight: 500;
+    margin-left: 184px;
+
+}
+
+.bloco-services .titleBloco{
+    margin-top: 15px;
+}
+
+.conteudoText{
+    display: flex;
+    gap: 70px;
+    margin-top: 25px;
+    margin-left:21px;
+}
+.textPrimario{
+    width: 327px;
+    height: 151px;
+    font-size:25px;
+    font-family: "encode sans condensed",sans-serif;
+    font-weight: 600;   
+}
+.todoServices{
+    display: flex;
+}
+
+ .textServicos li{
+    font-size:22px;
+    font-family: "encode sans condensed",sans-serif;
+    margin-top:12px;
+    
+ }
+
+ .textServicos .quadradoServicos{
+    width: 345px;
+    height:141px;
+    margin-top:50px;
+    margin-left: 30px;
+ }
+
+ 
+.textServicos + .textServicos{
+    margin-left: 50px;
+}
+
+/* atribuindo a seção sobre a hmc */
+.nossaEmpresa{
+    margin-top: 91px;
+}
+
+.conteinerSobre{
+    margin: 50px 0 64px 58px;
+   display: flex;
+   flex-wrap: wrap;
+
+}
+
+.textEmpresa{
+    display: flex;
+}
+.textEmpresa .texto{
+    display: inline-block;
+    width:auto;
+    max-width: 100%;
+
+    margin-right: 49px;
+    font-family: "encode sans condensed",sans-serif;;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+ 
